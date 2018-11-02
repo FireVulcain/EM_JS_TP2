@@ -1,0 +1,23 @@
+body{
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    -webkit-transform : translate(-50%, -50%);
+    -moz-transform : translate(-50%, -50%);
+    -ms-transform : translate(-50%, -50%);
+    -o-transform : translate(-50%, -50%);
+    transform : translate(-50%, -50%);
+}
+
+#showImgHangman{
+    display: block;
+    width : 450px;
+    height : 361px;
+    margin-bottom: 30px;
+    background-image: url("../img/0.png");
+    border : 1px solid #000;
+}
+
+p.word{
+    padding : 0 5px 10px;
+}
